@@ -1,0 +1,99 @@
+% !TeX spellcheck = en_US
+\documentclass[letterpaper]{tufte-handout}
+\title{Fudgy Two-Bite Brownies}
+
+\author[Luke Petrolekas]{Luke Petrolekas}
+
+\date{} % without \date command, current date is supplied
+\pagestyle{empty} % Removes page numbers from all pages
+
+%\geometry{showframe} % display margins for debugging page layout
+
+\usepackage{graphicx} % allow embedded images
+  \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+  \graphicspath{{graphics/}} % set of paths to search for images
+\usepackage{amsmath}  % extended mathematics
+\usepackage{tabularx, booktabs} % book-quality tables
+\usepackage{units}    % non-stacked fractions and better unit spacing
+\usepackage{multicol} % multiple column layout facilities
+\usepackage{lipsum}   % filler text
+\usepackage{fancyvrb} % extended verbatim environments
+  \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
+
+\usepackage{enumitem} % For the list of variations.
+
+% Standardize command font styles and environments
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+
+\newcolumntype{W}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{Z}{>{\raggedleft\arraybackslash}X}
+
+\begin{document}
+
+\maketitle% this prints the title, author, and date
+
+\begin{abstract}
+Dark and fudgy two-bite brownies with a deep chocolate flavour and crunchy top crust.
+\end{abstract}
+
+\begin{table}[htbp]
+\begin{tabularx}{\textwidth}{WCZ}
+Total Time & Active Time & Yield\\ 
+\midrule
+40 minutes & 20 minutes & 16 brownies\\
+\end{tabularx}
+\end{table}
+
+\section{Ingredients}
+
+\vspace*{-\baselineskip}
+\begin{table}[ht]
+	\begin{tabularx}{\textwidth}{>{\hsize=0.333\hsize}X>{\bf\hsize=1\hsize}X}
+	\unit[3]{oz} & butter \\
+	\unit[\nicefrac{3}{4}]{cup} & cocoa powder \\
+	\unit[\nicefrac{1}{2}]{cup} & all-purpose flour \\
+	\unit[\nicefrac{1}{2}]{tsp} & sea salt \\
+	\unit[2]{} & eggs \\
+	\unit[\nicefrac{1}{2}]{cup} & granulated sugar \\
+	\unit[\nicefrac{1}{2}]{cup} & brown sugar \\
+    \unit[\nicefrac{1}{2}]{tsp} & vanilla extract \\
+	\end{tabularx}
+\end{table}
+
+\section{Instructions}
+
+\begin{enumerate}	
+	\item Melt butter\marginnote{Cut butter into small chunks to accelerate process.} in a medium saucepan over low heat. Cook, stirring constantly with a wooden spoon, until particles begin to appear. Remove from heat\marginnote{Place the mixture back on the latent heat if it begins to clump.} and slowly add cocoa powder\marginnote{Adding the chocolate powder to the heated butter brings out more chocolate flavor by allowing the cocoa to bloom.}, stirring until all the cocoa powder has been added and the mixture becomes dark and glossy with no cocoa powder residue. Transfer to refrigerator and allow mixture to cool, about 10 minutes, stirring occasionally to prevent clumping.
+	
+	\item Meanwhile, whisk together flour and sea salt in a large bowl. Line 8 in. x 8 in. brownie tin with parchment paper and preheat oven to \unit[325]{\textdegree F}.
+	
+	\item Place eggs, granulated sugar, brown sugar\marginnote{Brown sugar adds moisture to compensate for the cocoa powder which would otherwise make it dry,  while the granulated sugar bubbles up to help the batter form a crust at the top.}, and vanilla extract into a separate bowl. Beat on low speed for about two minutes or until many bubbles form at the surface of the egg mixture but do not burst.\marginnote{Beating the sugar with the eggs aerates the eggs and produces a lighter texture.}
+	
+	\item When the chocolate and butter mixture is cool, pour it into the egg mixture and beat on low speed until smooth and combined, about one minute.
+	
+	\item Fold the chocolate mixture into the flour gently and then pour the final brownie batter into the parchment-lined brownie tin, ensuring the batter is distributed evenly. Bake for 20 minutes or until a toothpick comes out partially clean with crumbs or a little bit of batter sticking to it.
+	
+	\item Refrigerate\marginnote{This prevents the brownie from overcooking and drying out.} cooked brownies immediately for 15 minutes.
+	
+	\item Remove brownies from refrigerator and allow brownies to cool completely before cutting into 2 in. x 2 in. squares and storing in an airtight container, plastic bag, or cookie jar at room temperature for up to five days.
+\end{enumerate}
+
+\section{Variations}
+
+\begin{itemize}[label={}]
+	\item \textsc{Blondies} can be made with brown sugar.
+	\item \textsc{Milkies} can be made with chocolate chips.
+\end{itemize}
+
+%\bibliography{bibliography}
+%\bibliographystyle{plainnat}
+
+\end{document}
